@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		DE154BE72B20B878005C3314 /* ProjectMuseumAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BE62B20B878005C3314 /* ProjectMuseumAppApp.swift */; };
-		DE154BE92B20B878005C3314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BE82B20B878005C3314 /* ContentView.swift */; };
+		DE154BE92B20B878005C3314 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BE82B20B878005C3314 /* PrincipalView.swift */; };
 		DE154BEB2B20B87A005C3314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE154BEA2B20B87A005C3314 /* Assets.xcassets */; };
 		DE154BEE2B20B87A005C3314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */; };
+		DE154BFD2B20BEC2005C3314 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BFC2B20BEC2005C3314 /* Structures.swift */; };
+		DE154BFF2B20C11D005C3314 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BFE2B20C11D005C3314 /* Array.swift */; };
+		DE9A2BF72B21D95100D26C25 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BF62B21D95100D26C25 /* Function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE154BE32B20B878005C3314 /* ProjectMuseumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMuseumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE154BE62B20B878005C3314 /* ProjectMuseumAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMuseumAppApp.swift; sourceTree = "<group>"; };
-		DE154BE82B20B878005C3314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE154BE82B20B878005C3314 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		DE154BEA2B20B87A005C3314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE154BFC2B20BEC2005C3314 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		DE154BFE2B20C11D005C3314 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		DE9A2BF62B21D95100D26C25 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				DE154BE62B20B878005C3314 /* ProjectMuseumAppApp.swift */,
-				DE154BE82B20B878005C3314 /* ContentView.swift */,
+				DE154BE82B20B878005C3314 /* PrincipalView.swift */,
+				DE9A2BF52B21D8CA00D26C25 /* BASES */,
 				DE154BEA2B20B87A005C3314 /* Assets.xcassets */,
 				DE154BEC2B20B87A005C3314 /* Preview Content */,
 			);
@@ -65,6 +72,16 @@
 				DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE9A2BF52B21D8CA00D26C25 /* BASES */ = {
+			isa = PBXGroup;
+			children = (
+				DE154BFC2B20BEC2005C3314 /* Structures.swift */,
+				DE154BFE2B20C11D005C3314 /* Array.swift */,
+				DE9A2BF62B21D95100D26C25 /* Function.swift */,
+			);
+			path = BASES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE154BE92B20B878005C3314 /* ContentView.swift in Sources */,
+				DE154BE92B20B878005C3314 /* PrincipalView.swift in Sources */,
 				DE154BE72B20B878005C3314 /* ProjectMuseumAppApp.swift in Sources */,
+				DE154BFF2B20C11D005C3314 /* Array.swift in Sources */,
+				DE154BFD2B20BEC2005C3314 /* Structures.swift in Sources */,
+				DE9A2BF72B21D95100D26C25 /* Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
