@@ -20,16 +20,31 @@ struct PrincipalView: View {
                             Text("Fav list: \(favorite)")
                         }
                         ForEach(account.ticketList){ ticket in
-                            Text("Ticket list:\(String(format: "%.2f", ticket.ticketPrice))€")
+                            HStack{
+                                Image(systemName: ticket.image)
+                                Text("Ticket list:\(String(format: "%.2f", ticket.ticketPrice))€")
+                            }
                         }
                     }
                     Divider()
                 }
+                Divider()
+                ForEach(museums){museum in
+                    Text("Nom du musée: \(museum.name)")
+                    ForEach(museum.artList){art in
+                        Text("Nom de l'œuvre: \(art.name)")
+                        ForEach(art.categories, id:\.self){ cat in
+                            Text("Catégorie le l'œeuvre: \(cat)")
+                        }
+                        ForEach(museum.commentsList){comms in
+                            Text("Commentaire: \(comms.content)")
+                        }
+                    }
+                }
             }
+            .padding()
         }
-        .padding()
     }
-
 }
 
 #Preview {
