@@ -11,7 +11,7 @@ import SwiftUI
 struct ProjectMuseumAppApp: App {
     var body: some Scene {
         WindowGroup {
-            PrincipalView()
+            TabView()
         }
     }
 }
