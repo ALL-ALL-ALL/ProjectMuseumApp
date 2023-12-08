@@ -55,7 +55,7 @@ var museums = [
         ],
         openHour: openHour(),
         closeHour: closeHour(),
-        image: "louvre.fill",
+        image: "building.2.fill",
         ticketPriceAdult: 12.99,
         ticketPriceChildren: 6.99
     ),
@@ -103,7 +103,7 @@ var museums = [
         ],
         openHour: openHour(),
         closeHour: closeHour(),
-        image: "modernart.fill",
+        image: "building.2.fill",
         ticketPriceAdult: 15.99,
         ticketPriceChildren: 9.99
     )
