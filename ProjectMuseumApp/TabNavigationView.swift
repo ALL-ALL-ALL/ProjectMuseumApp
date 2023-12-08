@@ -11,7 +11,7 @@ struct TabView: View {
     var body: some View {
         VStack{
             TabView(selection: .constant(1)) {
-                MuseumList().tabItem {Image(systemName: "building.columns.fill")
+                MuseumDetail().tabItem {Image(systemName: "building.columns.fill")
                     Text("Musée")
                 }.tag(1)
                 Text("Guide").tabItem {Image(systemName: "book.closed.fill")
