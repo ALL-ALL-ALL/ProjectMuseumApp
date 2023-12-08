@@ -1,5 +1,5 @@
 //
-//  TabView.swift
+//  TabNavigationView.swift
 //  ProjectMuseumApp
 //
 //  Created by Alexis Chandelle on 12/6/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TabView: View {
+struct TabNavigationView: View {
     var body: some View {
         VStack{
             TabView(selection: .constant(1)) {
@@ -29,5 +29,5 @@ struct TabView: View {
 }
 
 #Preview {
-    TabView()
+    TabNavigationView()
 }

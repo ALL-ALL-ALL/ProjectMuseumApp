@@ -1,5 +1,5 @@
 //
-//  MuseumList.swift
+//  MuseumDetail.swift
 //  ProjectMuseumApp
 //
 //  Created by Alexis Chandelle on 12/7/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MuseumList: View {
+struct MuseumDetail: View {
     var museumSelect:Int = 0
     var body: some View {
         NavigationStack{
@@ -87,5 +87,5 @@ struct MuseumList: View {
 }
 
 #Preview {
-    MuseumList()
+    MuseumDetail()
 }
