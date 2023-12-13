@@ -8,26 +8,33 @@
 import SwiftUI
 
 struct TabNavigationView: View {
+    @State var tabSelected:Int
     var body: some View {
         VStack{
-            TabView(selection: .constant(1)) {
-                MuseumDetail().tabItem {Image(systemName: "building.columns.fill")
-                    Text("Musée")
-                }.tag(1)
-                Text("Guide").tabItem {Image(systemName: "book.closed.fill")
-                    Text("Guide")
-                }.tag(2)
-                Text("Billeterie").tabItem { Image(systemName: "ticket.fill")
-                    Text("Billeterie")
-                }.tag(3)
-                Text("Compte").tabItem {Image(systemName: "person.fill")
-                    Text("Compte")
-                }.tag(4)
+            ZStack{
+                TabView(selection: $tabSelected) {
+                    MuseumView().tabItem {Image(systemName: "building.columns.fill")
+                        Text("Musée")
+                    }.tag(1)
+                    GuideView().tabItem {Image(systemName: "book.closed.fill")
+                        Text("Guide")
+                    }.tag(2)
+                    TicketDetailView().tabItem { Image(systemName: "ticket.fill")
+                        Text("Billeterie")
+                    }.tag(3)
+                    AccountView().tabItem {Image(systemName: "person.fill")
+                        Text("Compte")
+                    }.tag(4)
+                }
             }
+            .navigationBarBackButtonHidden(true)
         }
     }
 }
 
 #Preview {
-    TabNavigationView()
+    TabNavigationView(tabSelected: 2)
 }
+
+
+

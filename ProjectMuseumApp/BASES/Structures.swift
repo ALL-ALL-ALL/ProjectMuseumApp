@@ -162,6 +162,8 @@ struct Art: Identifiable {
 
     /// Description détaillée de l'œuvre d'art.
     var description: String
+    
+    var funFactTitle:String
 
     /// Anecdote intéressante sur l'œuvre d'art.
     var funFact: String
@@ -203,4 +205,30 @@ struct Account: Identifiable {
 
     /// Liste des tickets associés à l'utilisateur.
     var ticketList: [Ticket]
+}
+
+/// Structure représentant une catégorie d'art.
+/// - Parameters:
+///   - id: Identifiant unique de la catégorie.
+///   - category: Nom de la catégorie.
+struct CategoryInfo: Identifiable {
+    /// Identifiant unique de la catégorie.
+    var id = UUID()
+
+    /// Nom de la catégorie.
+    var category: String
+    
+    
+    var categoryImage:String
+
+    /// Liste des sous-catégories associées à la catégorie.
+    var subCategoryList: [SubCategoryInfo]
+}
+
+struct SubCategoryInfo :Identifiable{
+    var id = UUID()
+    
+    var subCategory:String
+    
+    var subCategoryImage:String
 }
