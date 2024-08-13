@@ -11,6 +11,7 @@ import Foundation
 // Tableau de tous les musées
 
 // Tableau de tous les musées
+
 var museums = [
     Museum(
         name: "Musée du Louvre",

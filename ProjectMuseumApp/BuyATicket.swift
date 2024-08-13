@@ -21,6 +21,7 @@ struct BuyATicket: View {
                 .aspectRatio(contentMode: .fill)
             VStack(alignment:.leading){
                 //                Image(systemName: museums[museumSelect].image).font(.system(size: 100))
+                
                 HStack{
                     Text("Musée: \(museums[museumSelect].name)")
                     Spacer()
@@ -102,7 +103,7 @@ struct BuyATicket: View {
                     }).disabled(true)
                 }.padding(.bottom,30)
             }.padding(.horizontal)
-        }.background(Color("customColor"), ignoresSafeAreaEdges:.top).navigationTitle("Billeterie")
+        }.background(Color("customColor"), ignoresSafeAreaEdges:.horizontal).navigationBarTitle("Billeterie", displayMode:.inline)
     }
     func ticketPrice()->Double{
         var adultPrice:Double

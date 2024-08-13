@@ -25,12 +25,14 @@ struct TabNavigationView: View {
                     AccountView().tabItem {Image(systemName: "person.fill")
                         Text("Compte")
                     }.tag(4)
-                }
-            }
+                } // fin tabview
+            } // fin zstack
             .navigationBarBackButtonHidden(true)
-        }
-    }
-}
+        } // fin vstack
+        
+        
+    } // fin body
+} // fin strut
 
 #Preview {
     TabNavigationView(tabSelected: 2)

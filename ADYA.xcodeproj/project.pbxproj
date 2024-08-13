@@ -15,6 +15,7 @@
 		DE154BEE2B20B87A005C3314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */; };
 		DE22A05A2B28A7E2005518FF /* presentationMuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0592B28A7E2005518FF /* presentationMuseumView.swift */; };
 		DE22A05E2B28B92F005518FF /* ArtListCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A05D2B28B92F005518FF /* ArtListCategoryView.swift */; };
+		DE7FD77E2B2B287B00394650 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7FD77D2B2B287B00394650 /* Launch Screen.storyboard */; };
 		DE9A2BF92B220F9900D26C25 /* MuseumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */; };
 		DE9A2BFB2B22175F00D26C25 /* PLAYGROUND.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BFA2B22175F00D26C25 /* PLAYGROUND.swift */; };
 		DE9A2BFD2B22215800D26C25 /* ButtonNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BFC2B22215800D26C25 /* ButtonNavigationView.swift */; };
@@ -35,19 +36,19 @@
 		DEF11E862B2A0D06004F7A7A /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E852B2A0D06004F7A7A /* GuideView.swift */; };
 		DEF11E882B2A0D0B004F7A7A /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E872B2A0D0B004F7A7A /* TicketDetailView.swift */; };
 		DEF11E8A2B2A0D0F004F7A7A /* ValidationTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E892B2A0D0F004F7A7A /* ValidationTicketView.swift */; };
-		DEF8D8232B2B22B20087A29F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE0E41AB2B27348100BDE265 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		DE0E41AD2B2757D200BDE265 /* FavoriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteList.swift; sourceTree = "<group>"; };
-		DE154BE32B20B878005C3314 /* ProjectMuseumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMuseumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE154BE32B20B878005C3314 /* ADYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE154BE62B20B878005C3314 /* ProjectMuseumAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectMuseumAppApp.swift; sourceTree = "<group>"; };
 		DE154BE82B20B878005C3314 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
 		DE154BEA2B20B87A005C3314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE22A0592B28A7E2005518FF /* presentationMuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presentationMuseumView.swift; sourceTree = "<group>"; };
 		DE22A05D2B28B92F005518FF /* ArtListCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtListCategoryView.swift; sourceTree = "<group>"; };
+		DE7FD77D2B2B287B00394650 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetail.swift; sourceTree = "<group>"; };
 		DE9A2BFA2B22175F00D26C25 /* PLAYGROUND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLAYGROUND.swift; sourceTree = "<group>"; };
 		DE9A2BFC2B22215800D26C25 /* ButtonNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNavigationView.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		DEF11E852B2A0D06004F7A7A /* GuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		DEF11E872B2A0D0B004F7A7A /* TicketDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
 		DEF11E892B2A0D0F004F7A7A /* ValidationTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTicketView.swift; sourceTree = "<group>"; };
-		DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,6 @@
 		DE154BDA2B20B878005C3314 = {
 			isa = PBXGroup;
 			children = (
-				DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */,
 				DE154BE52B20B878005C3314 /* ProjectMuseumApp */,
 				DE154BE42B20B878005C3314 /* Products */,
 			);
@@ -94,7 +93,7 @@
 		DE154BE42B20B878005C3314 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE154BE32B20B878005C3314 /* ProjectMuseumApp.app */,
+				DE154BE32B20B878005C3314 /* ADYA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +101,7 @@
 		DE154BE52B20B878005C3314 /* ProjectMuseumApp */ = {
 			isa = PBXGroup;
 			children = (
+				DE7FD77D2B2B287B00394650 /* Launch Screen.storyboard */,
 				DE154BE62B20B878005C3314 /* ProjectMuseumAppApp.swift */,
 				DE154BE82B20B878005C3314 /* TabNavigationView.swift */,
 				DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */,
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE154BE22B20B878005C3314 /* ProjectMuseumApp */ = {
+		DE154BE22B20B878005C3314 /* ADYA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE154BF12B20B87A005C3314 /* Build configuration list for PBXNativeTarget "ProjectMuseumApp" */;
+			buildConfigurationList = DE154BF12B20B87A005C3314 /* Build configuration list for PBXNativeTarget "ADYA" */;
 			buildPhases = (
 				DE154BDF2B20B878005C3314 /* Sources */,
 				DE154BE02B20B878005C3314 /* Frameworks */,
@@ -173,9 +173,9 @@
 			);
 			dependencies = (
 			);
-			name = ProjectMuseumApp;
+			name = ADYA;
 			productName = ProjectMuseumApp;
-			productReference = DE154BE32B20B878005C3314 /* ProjectMuseumApp.app */;
+			productReference = DE154BE32B20B878005C3314 /* ADYA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE154BDE2B20B878005C3314 /* Build configuration list for PBXProject "ProjectMuseumApp" */;
+			buildConfigurationList = DE154BDE2B20B878005C3314 /* Build configuration list for PBXProject "ADYA" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE154BE22B20B878005C3314 /* ProjectMuseumApp */,
+				DE154BE22B20B878005C3314 /* ADYA */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF8D8232B2B22B20087A29F /* Launch Screen.storyboard in Resources */,
+				DE7FD77E2B2B287B00394650 /* Launch Screen.storyboard in Resources */,
 				DE154BEE2B20B87A005C3314 /* Preview Assets.xcassets in Resources */,
 				DE154BEB2B20B87A005C3314 /* Assets.xcassets in Resources */,
 			);
@@ -449,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE154BDE2B20B878005C3314 /* Build configuration list for PBXProject "ProjectMuseumApp" */ = {
+		DE154BDE2B20B878005C3314 /* Build configuration list for PBXProject "ADYA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE154BEF2B20B87A005C3314 /* Debug */,
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE154BF12B20B87A005C3314 /* Build configuration list for PBXNativeTarget "ProjectMuseumApp" */ = {
+		DE154BF12B20B87A005C3314 /* Build configuration list for PBXNativeTarget "ADYA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE154BF22B20B87A005C3314 /* Debug */,

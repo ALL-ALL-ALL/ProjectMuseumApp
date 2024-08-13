@@ -16,6 +16,8 @@ struct MusView: View {
             ZStack {
                 Image("louvre")
                     .resizable()
+                    .blur(radius:2)
+                    .frame(width:420,height:900)
                 Button(action: {
                     isCompteHomeViewPresented.toggle()
                 }) {
@@ -24,7 +26,7 @@ struct MusView: View {
                         .font(.system(size: 50))
                         .padding(.bottom, 600)
                         .padding(.leading, 250)
-                }
+                }.shadow(radius: 10)
                 .buttonStyle(PlainButtonStyle())
                 VStack {
                     Button(action: {
@@ -50,6 +52,7 @@ struct MusView: View {
                         .padding()
                         .background(Color.blue)
                         .cornerRadius(8)
+                        .shadow(radius: 10)
                     }
                 }
             }
