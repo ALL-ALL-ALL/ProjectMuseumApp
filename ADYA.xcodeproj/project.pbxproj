@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,16 +13,8 @@
 		DE154BE92B20B878005C3314 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE154BE82B20B878005C3314 /* TabNavigationView.swift */; };
 		DE154BEB2B20B87A005C3314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE154BEA2B20B87A005C3314 /* Assets.xcassets */; };
 		DE154BEE2B20B87A005C3314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */; };
-		DE22A0482B287339005518FF /* CommentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0472B287338005518FF /* CommentListView.swift */; };
-		DE22A04E2B28849D005518FF /* UnderCategorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A04B2B28849D005518FF /* UnderCategorieView.swift */; };
-		DE22A0562B288D1E005518FF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0552B288D1E005518FF /* AccountView.swift */; };
-		DE22A0582B28A439005518FF /* ArtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0572B28A439005518FF /* ArtDetailView.swift */; };
 		DE22A05A2B28A7E2005518FF /* presentationMuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0592B28A7E2005518FF /* presentationMuseumView.swift */; };
-		DE22A05C2B28B57A005518FF /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A05B2B28B57A005518FF /* GuideView.swift */; };
 		DE22A05E2B28B92F005518FF /* ArtListCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A05D2B28B92F005518FF /* ArtListCategoryView.swift */; };
-		DE22A0632B29AFA0005518FF /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0602B29AFA0005518FF /* Array.swift */; };
-		DE22A0642B29AFA0005518FF /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0612B29AFA0005518FF /* Structures.swift */; };
-		DE22A0652B29AFA0005518FF /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE22A0622B29AFA0005518FF /* Function.swift */; };
 		DE9A2BF92B220F9900D26C25 /* MuseumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */; };
 		DE9A2BFB2B22175F00D26C25 /* PLAYGROUND.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BFA2B22175F00D26C25 /* PLAYGROUND.swift */; };
 		DE9A2BFD2B22215800D26C25 /* ButtonNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2BFC2B22215800D26C25 /* ButtonNavigationView.swift */; };
@@ -30,11 +22,20 @@
 		DE9A2C032B23157700D26C25 /* BuyATicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2C022B23157700D26C25 /* BuyATicket.swift */; };
 		DE9A2C052B233E6400D26C25 /* InformationLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2C042B233E6400D26C25 /* InformationLineView.swift */; };
 		DE9A2C102B236A2D00D26C25 /* MusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2C0E2B236A2D00D26C25 /* MusView.swift */; };
-		DE9A2C152B23731800D26C25 /* museumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A2C132B23731800D26C25 /* museumView.swift */; };
 		DEBBBA5C2B29D650009A10CF /* ArtListMuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBBA5B2B29D650009A10CF /* ArtListMuseumView.swift */; };
-		DEBBBA612B29F0DC009A10CF /* ValidationTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBBA5E2B29F0DB009A10CF /* ValidationTicketView.swift */; };
-		DEBBBA622B29F0DC009A10CF /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBBA5F2B29F0DB009A10CF /* TicketDetailView.swift */; };
 		DEBBBA642B2A0893009A10CF /* ButtonTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBBBA632B2A0893009A10CF /* ButtonTicketView.swift */; };
+		DEE2E94A2B2B0A79006CDB97 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2E9472B2B0A79006CDB97 /* Array.swift */; };
+		DEE2E94B2B2B0A79006CDB97 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2E9482B2B0A79006CDB97 /* Structures.swift */; };
+		DEE2E94C2B2B0A79006CDB97 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE2E9492B2B0A79006CDB97 /* Function.swift */; };
+		DEF11E7C2B2A0CE0004F7A7A /* museumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E7B2B2A0CE0004F7A7A /* museumView.swift */; };
+		DEF11E7E2B2A0CEE004F7A7A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E7D2B2A0CEE004F7A7A /* AccountView.swift */; };
+		DEF11E802B2A0CF3004F7A7A /* CommentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E7F2B2A0CF3004F7A7A /* CommentListView.swift */; };
+		DEF11E822B2A0CF9004F7A7A /* UnderCategorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E812B2A0CF9004F7A7A /* UnderCategorieView.swift */; };
+		DEF11E842B2A0CFF004F7A7A /* ArtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E832B2A0CFF004F7A7A /* ArtDetailView.swift */; };
+		DEF11E862B2A0D06004F7A7A /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E852B2A0D06004F7A7A /* GuideView.swift */; };
+		DEF11E882B2A0D0B004F7A7A /* TicketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E872B2A0D0B004F7A7A /* TicketDetailView.swift */; };
+		DEF11E8A2B2A0D0F004F7A7A /* ValidationTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF11E892B2A0D0F004F7A7A /* ValidationTicketView.swift */; };
+		DEF8D8232B2B22B20087A29F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,16 +46,8 @@
 		DE154BE82B20B878005C3314 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
 		DE154BEA2B20B87A005C3314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE154BED2B20B87A005C3314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DE22A0472B287338005518FF /* CommentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentListView.swift; path = ../../../Downloads/Notion/CommentListView.swift; sourceTree = "<group>"; };
-		DE22A04B2B28849D005518FF /* UnderCategorieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnderCategorieView.swift; path = ../../../Downloads/Notion/UnderCategorieView.swift; sourceTree = "<group>"; };
-		DE22A0552B288D1E005518FF /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountView.swift; path = ../../../Downloads/Notion/AccountView.swift; sourceTree = "<group>"; };
-		DE22A0572B28A439005518FF /* ArtDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtDetailView.swift; path = ../../../Downloads/Notion/ArtDetailView.swift; sourceTree = "<group>"; };
 		DE22A0592B28A7E2005518FF /* presentationMuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presentationMuseumView.swift; sourceTree = "<group>"; };
-		DE22A05B2B28B57A005518FF /* GuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuideView.swift; path = ../../../Downloads/Notion/GuideView.swift; sourceTree = "<group>"; };
 		DE22A05D2B28B92F005518FF /* ArtListCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtListCategoryView.swift; sourceTree = "<group>"; };
-		DE22A0602B29AFA0005518FF /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		DE22A0612B29AFA0005518FF /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
-		DE22A0622B29AFA0005518FF /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetail.swift; sourceTree = "<group>"; };
 		DE9A2BFA2B22175F00D26C25 /* PLAYGROUND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLAYGROUND.swift; sourceTree = "<group>"; };
 		DE9A2BFC2B22215800D26C25 /* ButtonNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNavigationView.swift; sourceTree = "<group>"; };
@@ -62,11 +55,20 @@
 		DE9A2C022B23157700D26C25 /* BuyATicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyATicket.swift; sourceTree = "<group>"; };
 		DE9A2C042B233E6400D26C25 /* InformationLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationLineView.swift; sourceTree = "<group>"; };
 		DE9A2C0E2B236A2D00D26C25 /* MusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusView.swift; sourceTree = "<group>"; };
-		DE9A2C132B23731800D26C25 /* museumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = museumView.swift; path = ../../../Downloads/Notion/museumView.swift; sourceTree = "<group>"; };
 		DEBBBA5B2B29D650009A10CF /* ArtListMuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtListMuseumView.swift; sourceTree = "<group>"; };
-		DEBBBA5E2B29F0DB009A10CF /* ValidationTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidationTicketView.swift; path = ../../../Downloads/Notion/ValidationTicketView.swift; sourceTree = "<group>"; };
-		DEBBBA5F2B29F0DB009A10CF /* TicketDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicketDetailView.swift; path = ../../../Downloads/Notion/TicketDetailView.swift; sourceTree = "<group>"; };
 		DEBBBA632B2A0893009A10CF /* ButtonTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTicketView.swift; sourceTree = "<group>"; };
+		DEE2E9472B2B0A79006CDB97 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		DEE2E9482B2B0A79006CDB97 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		DEE2E9492B2B0A79006CDB97 /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		DEF11E7B2B2A0CE0004F7A7A /* museumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = museumView.swift; sourceTree = "<group>"; };
+		DEF11E7D2B2A0CEE004F7A7A /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		DEF11E7F2B2A0CF3004F7A7A /* CommentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentListView.swift; sourceTree = "<group>"; };
+		DEF11E812B2A0CF9004F7A7A /* UnderCategorieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderCategorieView.swift; sourceTree = "<group>"; };
+		DEF11E832B2A0CFF004F7A7A /* ArtDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtDetailView.swift; sourceTree = "<group>"; };
+		DEF11E852B2A0D06004F7A7A /* GuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		DEF11E872B2A0D0B004F7A7A /* TicketDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketDetailView.swift; sourceTree = "<group>"; };
+		DEF11E892B2A0D0F004F7A7A /* ValidationTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationTicketView.swift; sourceTree = "<group>"; };
+		DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		DE154BDA2B20B878005C3314 = {
 			isa = PBXGroup;
 			children = (
+				DEF8D8222B2B22B20087A29F /* Launch Screen.storyboard */,
 				DE154BE52B20B878005C3314 /* ProjectMuseumApp */,
 				DE154BE42B20B878005C3314 /* Products */,
 			);
@@ -104,19 +107,19 @@
 				DE9A2BF82B220F9900D26C25 /* MuseumDetail.swift */,
 				DE9A2C022B23157700D26C25 /* BuyATicket.swift */,
 				DE9A2C0E2B236A2D00D26C25 /* MusView.swift */,
-				DE9A2C132B23731800D26C25 /* museumView.swift */,
+				DEF11E7B2B2A0CE0004F7A7A /* museumView.swift */,
 				DE0E41AD2B2757D200BDE265 /* FavoriteList.swift */,
-				DE22A0552B288D1E005518FF /* AccountView.swift */,
-				DE22A0472B287338005518FF /* CommentListView.swift */,
-				DE22A04B2B28849D005518FF /* UnderCategorieView.swift */,
-				DE22A0572B28A439005518FF /* ArtDetailView.swift */,
+				DEF11E7D2B2A0CEE004F7A7A /* AccountView.swift */,
+				DEF11E7F2B2A0CF3004F7A7A /* CommentListView.swift */,
+				DEF11E812B2A0CF9004F7A7A /* UnderCategorieView.swift */,
+				DEF11E832B2A0CFF004F7A7A /* ArtDetailView.swift */,
 				DE22A05D2B28B92F005518FF /* ArtListCategoryView.swift */,
 				DEBBBA5B2B29D650009A10CF /* ArtListMuseumView.swift */,
-				DE22A05B2B28B57A005518FF /* GuideView.swift */,
-				DEBBBA5F2B29F0DB009A10CF /* TicketDetailView.swift */,
-				DEBBBA5E2B29F0DB009A10CF /* ValidationTicketView.swift */,
+				DEF11E852B2A0D06004F7A7A /* GuideView.swift */,
+				DEF11E872B2A0D0B004F7A7A /* TicketDetailView.swift */,
+				DEF11E892B2A0D0F004F7A7A /* ValidationTicketView.swift */,
 				DE9A2BFE2B22216600D26C25 /* Component */,
-				DE22A05F2B29AFA0005518FF /* BASES2 */,
+				DEE2E9462B2B0A79006CDB97 /* BASES */,
 				DE154BEA2B20B87A005C3314 /* Assets.xcassets */,
 				DE154BEC2B20B87A005C3314 /* Preview Content */,
 			);
@@ -132,17 +135,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DE22A05F2B29AFA0005518FF /* BASES2 */ = {
-			isa = PBXGroup;
-			children = (
-				DE22A0602B29AFA0005518FF /* Array.swift */,
-				DE22A0612B29AFA0005518FF /* Structures.swift */,
-				DE22A0622B29AFA0005518FF /* Function.swift */,
-			);
-			name = BASES2;
-			path = ../../../Downloads/Notion/BASES2;
-			sourceTree = "<group>";
-		};
 		DE9A2BFE2B22216600D26C25 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +146,16 @@
 				DE9A2BFC2B22215800D26C25 /* ButtonNavigationView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		DEE2E9462B2B0A79006CDB97 /* BASES */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2E9472B2B0A79006CDB97 /* Array.swift */,
+				DEE2E9482B2B0A79006CDB97 /* Structures.swift */,
+				DEE2E9492B2B0A79006CDB97 /* Function.swift */,
+			);
+			path = BASES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +194,7 @@
 				};
 			};
 			buildConfigurationList = DE154BDE2B20B878005C3314 /* Build configuration list for PBXProject "ProjectMuseumApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF8D8232B2B22B20087A29F /* Launch Screen.storyboard in Resources */,
 				DE154BEE2B20B87A005C3314 /* Preview Assets.xcassets in Resources */,
 				DE154BEB2B20B87A005C3314 /* Assets.xcassets in Resources */,
 			);
@@ -228,28 +231,28 @@
 			files = (
 				DE9A2C032B23157700D26C25 /* BuyATicket.swift in Sources */,
 				DE154BE92B20B878005C3314 /* TabNavigationView.swift in Sources */,
-				DE9A2C152B23731800D26C25 /* museumView.swift in Sources */,
 				DE0E41AC2B27348100BDE265 /* CommentView.swift in Sources */,
+				DEE2E94B2B2B0A79006CDB97 /* Structures.swift in Sources */,
+				DEF11E7E2B2A0CEE004F7A7A /* AccountView.swift in Sources */,
+				DEF11E8A2B2A0D0F004F7A7A /* ValidationTicketView.swift in Sources */,
+				DEF11E822B2A0CF9004F7A7A /* UnderCategorieView.swift in Sources */,
 				DE9A2C102B236A2D00D26C25 /* MusView.swift in Sources */,
-				DE22A0582B28A439005518FF /* ArtDetailView.swift in Sources */,
+				DEE2E94A2B2B0A79006CDB97 /* Array.swift in Sources */,
+				DEF11E882B2A0D0B004F7A7A /* TicketDetailView.swift in Sources */,
 				DE9A2BF92B220F9900D26C25 /* MuseumDetail.swift in Sources */,
+				DEF11E7C2B2A0CE0004F7A7A /* museumView.swift in Sources */,
 				DEBBBA5C2B29D650009A10CF /* ArtListMuseumView.swift in Sources */,
-				DE22A0642B29AFA0005518FF /* Structures.swift in Sources */,
-				DE22A04E2B28849D005518FF /* UnderCategorieView.swift in Sources */,
+				DEF11E802B2A0CF3004F7A7A /* CommentListView.swift in Sources */,
 				DE154BE72B20B878005C3314 /* ProjectMuseumAppApp.swift in Sources */,
-				DE22A0632B29AFA0005518FF /* Array.swift in Sources */,
+				DEF11E842B2A0CFF004F7A7A /* ArtDetailView.swift in Sources */,
 				DE22A05A2B28A7E2005518FF /* presentationMuseumView.swift in Sources */,
 				DE9A2C052B233E6400D26C25 /* InformationLineView.swift in Sources */,
-				DEBBBA612B29F0DC009A10CF /* ValidationTicketView.swift in Sources */,
-				DEBBBA622B29F0DC009A10CF /* TicketDetailView.swift in Sources */,
+				DEE2E94C2B2B0A79006CDB97 /* Function.swift in Sources */,
+				DEF11E862B2A0D06004F7A7A /* GuideView.swift in Sources */,
 				DE0E41AE2B2757D200BDE265 /* FavoriteList.swift in Sources */,
-				DE22A0482B287339005518FF /* CommentListView.swift in Sources */,
-				DE22A0652B29AFA0005518FF /* Function.swift in Sources */,
 				DE9A2BFD2B22215800D26C25 /* ButtonNavigationView.swift in Sources */,
 				DE9A2BFB2B22175F00D26C25 /* PLAYGROUND.swift in Sources */,
 				DE9A2C012B23062A00D26C25 /* ButtonDevellopView.swift in Sources */,
-				DE22A0562B288D1E005518FF /* AccountView.swift in Sources */,
-				DE22A05C2B28B57A005518FF /* GuideView.swift in Sources */,
 				DEBBBA642B2A0893009A10CF /* ButtonTicketView.swift in Sources */,
 				DE22A05E2B28B92F005518FF /* ArtListCategoryView.swift in Sources */,
 			);
@@ -388,11 +391,13 @@
 				DEVELOPMENT_TEAM = NU2H9JB6FZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ADYA;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,9 +405,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexisCh.ProjectMuseumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -417,11 +424,13 @@
 				DEVELOPMENT_TEAM = NU2H9JB6FZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ADYA;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,9 +438,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexisCh.ProjectMuseumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
